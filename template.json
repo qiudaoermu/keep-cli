@@ -1,1 +1,4 @@
-{"ant":"qiudaoermu/ant-design-vue","vue":"qiudaoermu/vue"}
+{
+  "react": "qiudaoermu/react-template",
+  "vue": "qiudaoermu/vue-template"
+}
