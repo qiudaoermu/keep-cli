@@ -1,5 +1,5 @@
 {
-  "name": "yr-cli",
+  "name": "keep-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 12"
   },
   "bin": {
-    "yr": "bin/yr",
-    "yr-add": "bin/yr-add",
-    "yr-delete": "bin/yr-delete",
-    "yr-list": "bin/yr-list",
-    "yr-init": "bin/yr-init"
+    "keep": "bin/keep",
+    "keep-create": "bin/keep-create"
   },
   "dependencies": {
     "chalk": "^2.4.2",

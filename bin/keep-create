@@ -29,12 +29,11 @@ inquirer.prompt(loaderSetting.frontTypes).then((answers) => {
     const cssLoader = answers.name;
     const url = tplObj[frontType];
     // console log logo
-    execFiglet();
+    execFiglet("KEEP IT UP!!");
 
     downloadGitRepo(url);
   });
 });
-const pwd = process.cwd();
 const downloadGitRepo = (url) => {
   console.log(chalk.white("\n Start generating... \n"));
   // 出现加载图标
@@ -49,15 +48,9 @@ const downloadGitRepo = (url) => {
       return;
     }
 
-    let originalName = url.replace("qiudaoermu/", "");
-    try {
-      fs.renameSync(pwd + "/" + originalName, pwd + "/" + projectName);
-    } catch (error) {
-      console.log(error);
-    }
     // 结束加载图标
     spinner.succeed();
-    console.log(chalk.green("\n Generation completed!"));
+    // console.log(chalk.green("\n Generation completed!"));
     console.log("\n To get started");
     console.log(`\n    cd ${projectName} \n`);
   });
