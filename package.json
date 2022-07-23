@@ -8,7 +8,8 @@
   },
   "bin": {
     "keep": "bin/keep",
-    "keep-create": "bin/keep-create"
+    "keep-create": "bin/keep-create",
+    "keep-list": "bin/keep-list"
   },
   "dependencies": {
     "chalk": "^2.4.2",

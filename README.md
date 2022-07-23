@@ -11,18 +11,22 @@
 
 ### Install
 
+```
 npm  install keep-cli -g
-
+```
 ### Create a project
 
-
+```
 keep create my-app
 
 cd my-app
 
 npm install
+```
 
 ### Run
 
+```
+npm run dev
 
-npm start
+```
