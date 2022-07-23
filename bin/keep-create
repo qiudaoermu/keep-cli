@@ -30,7 +30,7 @@ inquirer.prompt(loaderSetting.frontTypes).then((answers) => {
     const url = tplObj[frontType];
     // console log logo
     execFiglet("KEEP IT UP!!");
-
+    console.log(url, "---------------------------url--------------------------------")
     downloadGitRepo(url);
   });
 });
